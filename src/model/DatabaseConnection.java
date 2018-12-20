@@ -7,7 +7,7 @@ import java.sql.SQLException;
 public class DatabaseConnection {
 	private static DatabaseConnection instance;
 	private Connection connection;
-	private String url = "jdbc:mysql://localhost:3306/bdd?serverTimezone=GMT";
+	private String url = "jdbc:mysql://localhost:3306/mydb?serverTimezone=GMT";
 	private String username = "root";
 	private String password = "";
 	static String driver = "com.mysql.cj.jdbc.Driver";
